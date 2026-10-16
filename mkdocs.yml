@@ -1,0 +1,26 @@
+site_name: Make for Mere Mortals
+site_description: Plain-language GNU Make — targets, prerequisites, recipes, variables, and pattern rules. The 50-year-old build tool that still runs the world, explained from zero.
+site_url: https://paulsullivan33-dev.github.io/make-for-mere-mortals/
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What Make Is: what-make-is.md
+  - Your First Makefile: your-first-makefile.md
+  - How Make Decides What to Do: how-make-decides.md
+  - Variables: variables.md
+  - Automatic Variables: automatic-variables.md
+  - Pattern Rules: pattern-rules.md
+  - .PHONY Targets: phony-targets.md
+  - A Real C Build: a-real-c-build.md
+  - Make for Chores: make-for-chores.md
+  - Conditionals and Functions: conditionals-and-functions.md
+  - Parallel Builds: parallel-builds.md
+  - Debugging Makefiles: debugging-makefiles.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md
